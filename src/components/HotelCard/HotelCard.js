@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, Pressable, Image, StyleSheet} from 'react-native';
-import CustomText from '../CustomText';
+import CustomText from '../CustomText/CustomText';
 import {StarIcon} from 'react-native-heroicons/solid';
 import HeroIcon from '../HeroIcon/HeroIcon';
 

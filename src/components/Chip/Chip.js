@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import CustomText from '../CustomText';
+import CustomText from '../CustomText/CustomText';
 
 const Chip = ({label}) => {
   return (

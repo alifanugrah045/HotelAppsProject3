@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import CustomText from './../CustomText';
+import CustomText from './../CustomText/CustomText';
 import {Pressable, StyleSheet} from 'react-native';
 import DropDownPicker from 'react-native-dropdown-picker';
 

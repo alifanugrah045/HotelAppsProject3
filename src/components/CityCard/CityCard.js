@@ -1,6 +1,6 @@
 import React from 'react';
 import {Pressable, Text, Image, View, StyleSheet} from 'react-native';
-import CustomText from '../CustomText';
+import CustomText from '../CustomText/CustomText';
 
 const CityCard = ({imageUrl, cityName, onPress}) => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import {Pressable, StyleSheet} from 'react-native';
-import CustomText from './../CustomText';
+import CustomText from './../CustomText/CustomText';
 
 const CustomButton = ({onPress, label, type = 'PRIMARY'}) => {
   return (

@@ -1,12 +1,15 @@
 import React from 'react';
 import {View, Text, Pressable, StyleSheet} from 'react-native';
 import {SearchIcon, HeartIcon, UserIcon} from 'react-native-heroicons/outline';
+// import {SearchIcon, HeartIcon, UserIcon} from 'react-native-heroicons';
+
+
 
 const TabBar = ({searchPress, wishlistPress, profilePress}) => {
   return (
     <View style={styles.container}>
       <Pressable style={styles.tab} onPress={searchPress}>
-        <SearchIcon size={20} color="#FFC947" />
+        <SearchIcon size={40} color="#FFC947" />
         <Text style={styles.text}>Search</Text>
       </Pressable>
       <Pressable style={styles.tab} onPress={wishlistPress}>
